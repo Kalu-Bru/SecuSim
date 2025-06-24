@@ -15,23 +15,23 @@ confidence_interval_95: !!python/tuple
     - -1
     - 0
   - !!binary |
-    2AlwogXDDcA=
+    ILce7gE1DsA=
 - !!python/object/apply:numpy.core.multiarray.scalar
   - *id001
   - !!binary |
-    ILrS+YYQxL8=
+    sN4r1hwUyr8=
 distributions:
   blockchain_scores:
     max: 354.20250132214636
     mean: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      M2OTvGPHdEA=
+      HjMcsU7QdEA=
     min: 210.75693746321141
     std: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      GMN18s2eQ0A=
+      jUWQHvhIQ0A=
   traditional_scores:
     max: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
@@ -40,133 +40,133 @@ distributions:
     mean: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      aXClymfmdEA=
+      k7TX9CTwdEA=
     min: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      HCrEprquaUA=
+      3gnXlexgaUA=
     std: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      8hGHCdIoSUA=
+      5gz2NpIcSUA=
 factor_analysis:
   Auditing:
     blockchain_mean: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      y1ZEI53VQUA=
-    blockchain_win_rate: 0.545
+      IE339dLpQUA=
+    blockchain_win_rate: 0.5496
     mean_difference: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      xdyxK7n1EsA=
+      ejP5ltMYEcA=
     std_difference: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      6obgnC5sP0A=
+      +8HjCxIwP0A=
     traditional_mean: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      Y5K6SFQ0REA=
+      j3PWaO0MREA=
   Governance:
     blockchain_mean: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      cp0kNT8aVUA=
-    blockchain_win_rate: 0.8706
+      7MvjOCwpVUA=
+    blockchain_win_rate: 0.8742
     mean_difference: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      NarTH6whOUA=
+      lrIOXzpfOUA=
     std_difference: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      3DbzH6nbOEA=
+      ZfcEst+sOEA=
     traditional_mean: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      zGVfWqijTUA=
+      jz5AQruiTUA=
   Interoperability:
     blockchain_mean: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      zM8cofVNSkA=
-    blockchain_win_rate: 0.6466
+      5GdzDAU/SkA=
+    blockchain_win_rate: 0.645
     mean_difference: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      OxO7uYbJ+L8=
+      NuHoOXLNAMA=
     std_difference: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      o11rJGmPOEA=
+      h8+8hxl7OEA=
     traditional_mean: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      Zqjq1kEUS0A=
+      9fURMNxLS0A=
   Liquidity:
     blockchain_mean: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      xFwsquUNWEA=
-    blockchain_win_rate: 0.9388
+      M1cdAYsNWEA=
+    blockchain_win_rate: 0.9468
     mean_difference: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      A2DKJqgyNUA=
+      e5uBs9U+NUA=
     std_difference: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      bX5FfdfPNkA=
+      Bvn/G76wNkA=
     traditional_mean: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      wsR5oDvBUkA=
+      U/A8lNW9UkA=
   Systemic Risk:
     blockchain_mean: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      6ca+7qe80j8=
-    blockchain_win_rate: 0.009
+      jr5uC+GJzz8=
+    blockchain_win_rate: 0.0076
     mean_difference: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      gSDdPQEcN8A=
+      qlA3GCJtN8A=
     std_difference: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      nc0bH44OKUA=
+      tmbI64BkKEA=
     traditional_mean: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      nhuY3fNmN0A=
+      KC5O2jWsN0A=
   Transparency:
     blockchain_mean: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      DYG6EcihT0A=
-    blockchain_win_rate: 0.2868
+      9y5pMaXMT0A=
+    blockchain_win_rate: 0.2854
     mean_difference: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      mZRZM43eMsA=
+      o6sVCW/OMsA=
     std_difference: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      NrbA56vPN0A=
+      s1Qhw9SlN0A=
     traditional_mean: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      raWzVYeIVEA=
+      ZAL6Wu6ZVEA=
 score_statistics:
   max_difference: !!python/object/apply:numpy.core.multiarray.scalar
   - *id001
   - !!binary |
-    YlZJPcCXYkA=
+    oHY2To7lYkA=
   mean_difference: !!python/object/apply:numpy.core.multiarray.scalar
   - *id001
   - !!binary |
-    ejUNEg4E/78=
+    C3WBu0PW/78=
   median_difference: !!python/object/apply:numpy.core.multiarray.scalar
   - *id001
   - !!binary |
@@ -178,7 +178,7 @@ score_statistics:
   std_difference: !!python/object/apply:numpy.core.multiarray.scalar
   - *id001
   - !!binary |
-    ofycqY0QUEA=
+    5KA68Y8aUEA=
 summary:
   blockchain_wins: !!python/object/apply:numpy.core.multiarray.scalar
   - &id002 !!python/object/apply:numpy.dtype
@@ -196,17 +196,17 @@ summary:
     - -1
     - 0
   - !!binary |
-    aAsAAAAAAAA=
+    egsAAAAAAAA=
   total_simulations: 5000
   traditional_wins: !!python/object/apply:numpy.core.multiarray.scalar
   - *id002
   - !!binary |
-    IAgAAAAAAAA=
+    DggAAAAAAAA=
   win_probability: !!python/object/apply:numpy.core.multiarray.scalar
   - *id001
   - !!binary |
-    46WbxCCw4j8=
+    ryXkg57N4j8=
   win_probability_percent: !!python/object/apply:numpy.core.multiarray.scalar
   - *id001
   - !!binary |
-    MzMzMzMzTUA=
+    4XoUrkdhTUA=

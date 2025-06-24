@@ -238,6 +238,7 @@ def create_interactive_radar_chart(traditional_scores, blockchain_scores):
     ))
     
     fig.update_layout(
+        margin=dict(l=80, r=40, t=60, b=40),
         polar=dict(
             radialaxis=dict(
                 visible=True,
