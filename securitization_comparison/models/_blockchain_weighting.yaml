@@ -1,0 +1,29 @@
+# Blockchain/Tokenized Securitization Model Configuration
+# These values can be adjusted to fine-tune the scoring model
+
+transparency:
+  on_chain_score: 70  # High transparency due to on-chain visibility
+
+liquidity:
+  amm_depth_shape: 2.5  # Gamma distribution shape parameter for AMM depth simulation
+  amm_depth_scale: 0.25  # Gamma distribution scale parameter 
+  min_score: 20  # Minimum liquidity score
+  max_score: 100  # Maximum liquidity score
+
+systemic_risk:
+  oracle_dependency_weight: 0.4  # Weight for oracle dependency risk
+  smart_contract_weight: 0.6  # Weight for smart contract risk
+  base_oracle_risk: 11  # Base oracle dependency risk score
+  base_contract_risk: 13.5  # Base smart contract risk score
+
+governance:
+  participation_shape: 0.8  # Beta distribution shape for governance participation
+  participation_scale: 4.5  # Scale factor for participation simulation
+  min_score: 0  # Minimum governance score
+  max_score: 100  # Maximum governance score
+
+auditing:
+  real_time_score: 80  # Score for real-time proof-of-reserve capabilities
+
+interoperability:
+  erc_compliance_score: 75  # Score for ERC-20/ERC-4626 standard compliance 

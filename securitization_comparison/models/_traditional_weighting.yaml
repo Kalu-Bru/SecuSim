@@ -1,0 +1,24 @@
+# Traditional Securitization Model Configuration
+# These values can be adjusted to fine-tune the scoring model
+
+transparency:
+  base_score: 30  # Base transparency score
+  disclosure_weight: 70  # Weight for public disclosure percentage
+  typical_disclosure_rate: 0.46  # 0.5 * 91.7 + 0.5 * 0 = 46% -> European Datawarehouse
+
+liquidity:
+  cpr_alpha: 9.0  # Sigmoid function alpha parameter -> Fuster et al.
+  cpr_scale: 0.4  # Sigmoid function scale parameter
+
+systemic_risk:
+  concentration_weight: 0.6  # Weight for concentration risk -> S&P Global, Criteria
+  dispersion_weight: 0.4  # Weight for geographic dispersion risk
+
+governance:
+  fixed_score: 65  # Fixed governance score (placeholder)
+
+auditing:
+  regulated_score: 60  # Score for regulated audit framework
+
+interoperability:
+  proprietary_penalty: 45  # Penalty for proprietary data standards 
