@@ -104,7 +104,7 @@ class StatisticalAnalyzer:
                 "transparency": {
                     "base_score": (0, 100),  # Much wider: 67% below to 133% above baseline (30)
                     "disclosure_weight": (0, 100),  # Much wider: 57% below to 43% above baseline (70)
-                    "typical_disclosure_rate": (0.9, 0.91)  # Much wider: 75% below to 100% above baseline (0.4)
+                    "typical_disclosure_rate": (0.09, 0.91)  # Much wider: 75% below to 100% above baseline (0.4)
                 },
                 "liquidity": {
                     "cpr_alpha": (0.5, 10.0),  # Much wider: 80% below to 100% above baseline (5.0)
